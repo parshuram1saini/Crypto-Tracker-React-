@@ -1,0 +1,34 @@
+body{
+    background-color:   #ffedd5;
+    /* background-color: #222; */
+}
+
+.table{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td {
+    padding: 1vh;
+}
+th, td{
+    border: 1px solid black;
+    /* border-radius: 10px; */
+
+  }
+  tbody{
+    background-image: linear-gradient(
+        to right,
+        rgb(111, 158, 154),
+        rgb(46, 211, 183),
+        rgb(123, 178, 180)
+      );
+  }
+  .theading{
+      background-color:  rgb(123, 178, 180);
+      padding :1vh;
+  }
+

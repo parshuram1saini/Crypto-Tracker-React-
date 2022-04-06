@@ -1,0 +1,21 @@
+img{
+    height: 5vh;
+    width: 4vw;
+    float: left;
+    padding: 2%;
+    margin-left: 12%;
+
+  
+  }
+  /* tr:hover{
+    background-image: linear-gradient(violet,skyblue);
+  } */
+tr:nth-child(even){
+  background-color: #222;
+  color: white;
+}
+tr:nth-child(odd){
+  /* background-color: #fee2e2; */
+  background-color:white; 
+  color: #222;
+}
